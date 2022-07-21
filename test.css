@@ -7,11 +7,18 @@ border: 0;
 
 .navDiv1{
 
-position: absolute;
-display: inline;
-text-align: right;
-}
-nav{
+    position: absolute;
+    display: inline;
+    left: 480px;
+    bottom: 80px;
+    }
+
+.naveli {
+    position: absolute;
+    display: inline;
+    bottom: 40px;
+    left: 200px;
+    width:50%;
 
     
 }

@@ -5,20 +5,104 @@ border: 0;
 
 }
 
-.navDiv1{
-
-    position: absolute;
+.nav > li {
+    position: relative;
     display: inline;
-    left: 480px;
-    bottom: 80px;
-    }
-
-.naveli {
-    position: absolute;
-    display: inline;
+    text-decoration: none;
+    list-style: none;
     bottom: 40px;
-    left: 200px;
-    width:50%;
+    width: 90px;
+}
 
+
+div.nav {
+    position: relative;
+    left: 30px;
+    border: 3px solid #73AD21;
+
+  }
+    .b1{
+    position: absolute;
+    right: 20%;
+    top: 20%;
+  }
+  .b2{
+    position: absolute;
+    right: 30%;
+    top: 20%;
+  }
+  div.headImage{
+  position: relative;
+  left: 30px;
+  border: 3px solid #73AD21;
+  top: 50px;
+  
+  }
+  .overFlowH1{
+    position: absolute;
+    left: 20%;
+    top:20%
+
+  }
+  .overFlowP1{
+    position: absolute;
+    left: 22%;
+    top:30%
+
+  }
+
+  div.moviesTypes{
+
+    position: relative;
+    left: 20px;
+    border: 3px solid #73AD21;
+    top: 55px;
+    height: 200pt;
     
+  }
+  .moviesTypes>*{
+    position: absolute;
+
+  }
+.moviesTypes>img {
+width: 120px;
+height: 120px;
+top: 30%;
+
+}
+.moviesTypes>section{
+top: 80%;
+
+}
+.moviesTypes>h2{
+text-transform: uppercase;
+left: 30%;
+}
+div.titleOverImage{
+
+  position: relative;
+  left: 20px;
+  border: 3px solid #73AD21;
+  top: 55px;
+  height: 200pt;
+  
+}
+.titleOverImage>*{
+  position: absolute;
+  
+}
+div.divArticle{
+
+  position: relative;
+  left: 20px;
+  border: 3px solid #73AD21;
+  top: 55px;
+  height: 6--pt;
+}
+.divArticle>img{
+
+display: block;
+position: absolute;
+
+
 }

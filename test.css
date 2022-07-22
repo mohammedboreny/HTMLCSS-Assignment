@@ -5,29 +5,38 @@ border: 0;
 
 }
 
-.nav > li {
-    position: relative;
+.nav > ul  {
+    position: absolute;
+    display: block;
+    left: 20%;
+    top: 10%;
+   
+    
+}
+.nav > ul > li {
     display: inline;
-    text-decoration: none;
-    list-style: none;
-    bottom: 40px;
-    width: 90px;
+    width: 20%;
+    border: #73AD21 2px dotted;
+    
+
 }
 
 
-div.nav {
+.nav {
     position: relative;
     left: 30px;
     border: 3px solid #73AD21;
-
+    height: 15%;
   }
     .b1{
     position: absolute;
+    size: 0ch;
     right: 20%;
     top: 20%;
   }
   .b2{
     position: absolute;
+    size: 0ch;
     right: 30%;
     top: 20%;
   }
@@ -97,12 +106,98 @@ div.divArticle{
   left: 20px;
   border: 3px solid #73AD21;
   top: 55px;
-  height: 6--pt;
+  height: 400pt;
 }
-.divArticle>img{
+.divArticle>*{
 
 display: block;
 position: absolute;
 
 
+
+}
+.divTesti{
+position: relative;
+border: 1px solid #73AD21;
+top: 55px;
+height: 300px;
+left: 15pt;
+
+}
+.divTesti>*{
+  position:absolute;
+  
+
+}
+.checked {
+  color: orange;
+}
+.divBlog{
+  position: relative;
+  border: 1px solid #73AD21;
+  top: 55px;
+  height: 300px;
+  left: 21%;
+  width: 60%;
+  }
+  .divBlog>*{
+    position:absolute;
+    display: block;
+    
+    
+  
+  }
+  div{
+    position: relative;
+    border: 1px solid #73AD21;
+    top: 55px;
+    height: 300px;
+  
+  }
+  .divBlog>img{
+
+    top: 100px;
+  }
+  .divNewLetter{
+    position: relative;
+    border: 1px solid #73AD21;
+    top: 55px;
+    height: 80px;
+    left: 21%;
+    width: 60%;
+    }
+
+
+.divNewLetter>*{
+  position: absolute;
+}
+
+
+.navFoot{
+  position: relative;
+  border: 1px solid #73AD21;
+  top: 55px;
+  height: 80px;
+  width: 100%;
+  }
+
+.navFoot>select{
+  
+}
+.navFoot>ul{
+position: absolute;
+    display: block;
+    left: 20%;
+    top: 10%;
+}   
+.navFoot>ul>li{
+
+ display: inline;
+    width: 20%;
+    border: #73AD21 2px dotted;
+}
+#select{
+  position: absolute;
+  top: 10pt;
+  left: 80%;
 }

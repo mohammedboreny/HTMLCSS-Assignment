@@ -1,11 +1,14 @@
 *{
 padding: o;
-margin: 0; 0;
+margin: 0; 
+border : 0;
 
 }
+
 body{
   
     background-color: lightblue;
+    
   
 }
 
@@ -45,8 +48,8 @@ body{
   }
   div.headImage{
   position: relative;
-  left: 30px;
   top: 50px;
+  width: 100%;
   
   }
   .overFlowH1{
@@ -65,9 +68,10 @@ body{
   div.moviesTypes{
 
     position: relative;
-    left: 20px;
     top: 55px;
     height: 200pt;
+    width: 100%;
+
     
   }
   .moviesTypes>*{
@@ -91,9 +95,10 @@ left: 30%;
 div.titleOverImage{
 
   position: relative;
-  left: 20px;
   top: 55px;
   height: 200pt;
+  width: 100%;
+
   
 }
 .titleOverImage>*{
@@ -103,7 +108,7 @@ div.titleOverImage{
 div.divArticle{
 
   position: relative;
-  left: 20px;
+  width: 100%;
   top: 55px;
   height: 400pt;
 }
@@ -119,8 +124,7 @@ position: absolute;
 position: relative; 
 top: 55px;
 height: 300px;
-left: 15pt;
-
+width: 100%;
 }
 .divTesti>*{
   position:absolute;
@@ -132,11 +136,10 @@ left: 15pt;
 }
 .divBlog{
   position: relative;
- 1px solid ;
   top: 55px;
   height: 300px;
-  left: 21%;
-  width: 60%;
+  
+  width: 100%;
   }
   .divBlog>*{
     position:absolute;
@@ -147,8 +150,9 @@ left: 15pt;
   }
   div{
     position: relative;
-    top: 55px;
+    width: 100%;
     height: 300px;
+
   
   }
   .divBlog>img{
@@ -159,8 +163,7 @@ left: 15pt;
     position: relative;
     top: 55px;
     height: 80px;
-    left: 21%;
-    width: 60%;
+    width: 100%;
     }
 
 
@@ -176,9 +179,8 @@ left: 15pt;
   width: 100%;
   }
 
-.navFoot>select{
-  
-}
+
+
 .navFoot>ul{
 position: absolute;
     display: block;
@@ -188,9 +190,7 @@ position: absolute;
 .navFoot>ul>li{
 
  display: inline;
-    width: 20%;
-    2px dotted;
-}
+    width: 20%;}
 #select{
   position: absolute;
   top: 10pt;
@@ -220,7 +220,6 @@ position: absolute;
 .divForm #button{
   position: absolute;
   left: 30%;
- black 2pt double;
 
 }
 .divTable{
